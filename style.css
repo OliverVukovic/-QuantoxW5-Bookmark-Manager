@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300&family=Kumbh+Sans:wght@400;700&family=Rubik:wght@400;500&family=Spartan:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    font-family: 'Rubik', sans-serif;
+    color: #242A45;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 48px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    gap: 45px;
+}
+
+.menu {
+    display: none;
+}
+
+.red-btn {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 8px 8px -4px #495DCF33;
+    cursor: pointer;
+}
+
+main {
+    width: 100%;
+    padding-top: 100px;
+}
+
+.one {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.order-2 {
+    width: 50%;
+    padding-left: 165px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-around;
+}
+
+.violet-btn {
+    background-color: violet;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 8px 8px -4px #495DCF33;
+    cursor: pointer;
+}
+
+.white-btn {
+    background-color: #F7F7F7;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 8px 8px -4px #495DCF33;
+    cursor: pointer;
+}
+
+.order-1 {
+    width: 50%;
+    background-image: url(./images/);
+    padding-right: 90px;
+}
+
+.features {
+    width: 100%;
+    margin: auto;
+    padding-top: 80px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 350px;
+}
+
+.two {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.nav-bar {
+    padding: 72px;
+    display: flex;
+    gap: 90px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #979797;
+}
+
+a {
+    text-decoration: none;
+    color: #242A45;
+    font-weight: 500;
+}
+
+.modals {
+    display: flex;
+    width: 100%;
+    padding-top: 72px;
+}
+
+.modal-01 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding-left: 169px;
+}
+
+.modal-02 {
+    display: none;
+}
+
+.modal-03 {
+    display: none;
+}
