@@ -66,3 +66,33 @@ modalFour.addEventListener('click', () => {
     arrowThree.style.transform = "rotate(360deg)";
 })
 
+
+
+
+
+const simply = document.getElementById("simply");
+const easy = document.getElementById("easy");
+const speedy = document.getElementById("speedy");
+
+const imgOne = document.getElementById("m1");
+const imgTwo = document.getElementById("m2");
+const imgThree = document.getElementById("m3");
+
+
+simply.addEventListener('click', () => {
+    imgOne.style.display = "flex";
+    imgTwo.style.display = "none";
+    imgThree.style.display = "none";
+})
+
+speedy.addEventListener('click', () => {
+    imgTwo.style.display = "flex";
+    imgOne.style.display = "none";
+    imgThree.style.display = "none";
+})
+
+easy.addEventListener('click', () => {
+    imgThree.style.display = "flex";
+    imgTwo.style.display = "none";
+    imgOne.style.display = "none";
+})
