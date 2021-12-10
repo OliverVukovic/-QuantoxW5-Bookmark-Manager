@@ -498,6 +498,34 @@ input {
     cursor: pointer;
 }
 
+
+.hidd {
+    display: none;
+}
+
+.label-correct {
+    background-color: green;
+    color: white;
+    font-style: italic;
+    opacity: 1;
+    font-size: 12px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.label-wrong {
+    background-color: #FA5959;
+    color: white;
+    font-style: italic;
+    opacity: 1;
+    font-size: 12px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+
+
 @media (max-width: 430px) {
 
     header {

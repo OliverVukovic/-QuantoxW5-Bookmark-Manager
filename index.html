@@ -298,11 +298,21 @@
 
         <div class="mail">
           <div class="input-field">
-            <input type="text" placeholder="Enter Your email address">
+            <input id="email" type="email" placeholder="Enter Your email address">
             <img class="error" src="./images/icon-error.svg" alt="icon-error">
+
+            <div>
+              <div id="correct" class="hidd">
+                <p class="label-correct">Your email is correct!</p>
+              </div>
+      
+              <div id="wrong" class="hidd">
+                <p class="label-wrong">Whoops, make sure it's an email</p>
+              </div>
+            </div>
           </div>
 
-          <button class="red-btn foot">
+          <button onclick="sendMail()" class="red-btn foot">
             Contact Us
           </button>
         </div>

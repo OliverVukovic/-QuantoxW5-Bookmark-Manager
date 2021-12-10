@@ -96,3 +96,23 @@ easy.addEventListener('click', () => {
     imgTwo.style.display = "none";
     imgOne.style.display = "none";
 })
+
+
+function sendMail() {
+
+    let emailValue=document.getElementById("email").value;
+      if (!emailValue || !validateEmail(emailValue)) {
+        document.getElementById("correct").className="hidd";
+        document.getElementById("wrong").className="";
+        document.getElementById("email").style.border = "2px solid #FA5959"
+
+      } else {
+        document.getElementById("correct").className="";
+        document.getElementById("wrong").className="hidd";
+        document.getElementById("email").style.border = "2px solid green"
+      }
+    } 
+    function validateEmail(email) {
+      const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+      return re.test(String(email).toLowerCase());
+      }
