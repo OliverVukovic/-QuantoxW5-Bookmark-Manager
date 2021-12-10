@@ -122,7 +122,6 @@ main {
 
 .order-1 {
     width: 50%;
-    background-image: url(./images/);
     padding-right: 90px;
 }
 
@@ -176,17 +175,28 @@ h2 {
     padding: 72px;
     display: flex;
     gap: 90px;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
     border-bottom: 1px solid rgba(73, 93, 207, 0.2001);
 }
 
 a {
     text-decoration: none;
     color: #242A45;
-    font-weight: 500;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: 1.5px;
 }
 a:hover {
     color: #FA5959;
+}
+
+.bar {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    padding-bottom: 30px;
+    border-bottom: 4px solid #FA5959;
+    border: none;
 }
 
 .modals {
@@ -472,4 +482,181 @@ input {
 .right-side {
     display: flex;
     gap: 40px;
+    cursor: pointer;
+}
+
+@media (max-width: 430px) {
+
+    header {
+        padding-top: 40px;
+        align-items: center;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+        cursor: pointer;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .one {
+        flex-direction: column;
+    }
+
+    .order-1 {
+        order: 1;
+        padding: 0px;
+    }
+
+    .order-2 {
+        order: 2;
+        width: 100%;
+        margin: 0;
+        padding: 32px;
+        padding-top: 94px;
+    }
+
+
+    .extract-1 {
+        width: 80%;
+        margin-top: 170px;
+        top: 0;
+        right: 0;
+    }
+
+    h1 {
+        font-size: 30px;
+        line-height: 40px;
+        letter-spacing: 0.1px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+    }
+
+    .features {
+        padding: 32px;
+        padding-top: 140px;
+    }
+
+    
+
+    .column {
+        flex-direction: column;
+        text-align: center;
+        border-top: 1px solid rgba(36, 42, 69, 0.14);
+        gap: 0px;
+        padding-top: 0px;
+    }
+
+    .bar {
+        width: 100%;
+        padding: 16px;
+    }
+
+    .modals {
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .modal-01 {
+        width: 100%;
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    .pht {
+        width: 100%;
+        padding-left: 20px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .mob {
+        width: 90%;
+    }
+
+    .extract-2 {
+        width: 95%;
+        margin-top: -135px;
+        top: 1;
+    }
+
+    .txt {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        padding: 32px;
+        padding-top: 70px;
+    }
+
+    .mid-txt {
+        padding: 32px;
+        padding-top: 77px;
+    }
+
+    .three {
+        flex-direction: column;
+    }
+
+    .rows {
+        width: 100%;
+    }
+
+    label {
+        width: 100%;
+        padding-left: 32px;
+    }
+
+    .visible {
+        width: 100%;
+    }
+
+    .p-bold {
+        font-size: 15px;
+    }
+
+    .percent {
+        width: 100%;
+    }
+
+    .mail {
+        flex-direction: column;
+        width: 90%;
+        gap: 16px;
+    }
+
+    .input-field {
+        width: 100%;
+    }
+
+    .foot {
+        width: 100%;
+    }
+
+    .dark-part {
+        flex-direction: column;
+        padding-bottom: 43px;
+        gap: 8px;
+    }
+
+    .left-side {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 25px;
+    }
+
+
 }
