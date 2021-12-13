@@ -734,6 +734,7 @@ input {
         padding: 32px;
         padding-top: 40px;
         padding-bottom: 48px;
+        opacity: 0.95;
         display: none;
     }
 
