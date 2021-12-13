@@ -116,3 +116,19 @@ function sendMail() {
       const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
       return re.test(String(email).toLowerCase());
       }
+
+
+
+    const openModal = document.getElementById("burger");
+    const mobModal = document.getElementById("menu123");
+
+    const closeModal = document.getElementById("dropdown-closed");
+
+
+    openModal.addEventListener('click', () => {
+        mobModal.style.display = "flex";
+    })
+
+    closeModal.addEventListener('click', () => {
+        mobModal.style.display = "none";
+    })
